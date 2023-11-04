@@ -1,0 +1,31 @@
+  /* Styling for the Pokemon component */
+  .pokemon-container {
+    background-color: #dbe9ee;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+    width: 18%;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: grey;
+    }
+  
+  .pokemon-container:hover {
+    transform: scale(1.1);
+  }
+  
+  .pokemon-image {
+    width: 45%;
+    height: 70%;
+  }
+  
+  .pokemon-name {
+    margin-top: 2%;
+    font-size: x-large;
+    margin-bottom: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: beige;
+    border-radius: 20px;
+  }

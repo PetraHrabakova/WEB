@@ -1,0 +1,125 @@
+/* Center everything on the screen */
+body {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: url('https://img.freepik.com/free-vector/hand-drawn-international-cat-day-background_23-2149487428.jpg?w=996&t=st=1696083379~exp=1696083979~hmac=6bd5c00c7e78583ed286259e093c0135a275f825d9d7bb208f0c409bda3898fd') center/cover no-repeat;
+}
+
+/* Main container for the game */
+#container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20%;
+    width: 340px;
+    background: rgba(255, 255, 255, 0.8);
+    /* Faded white background */
+    border: 4px solid lightblue;
+    /* Thicker border */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Headline style */
+#headline {
+    text-align: center;
+    font-size: 45px;
+    color: lightsalmon;
+    margin-bottom: 20px;
+}
+
+/* Board grid */
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    /* 3 columns, each 100px wide */
+    gap: 4px;
+    /* Gap between cells */
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    z-index: 2;
+}
+
+/* Board cell styles */
+#board>button {
+    background: white;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    /* Thicker border */
+    font-size: 36px;
+    /* Slightly smaller font */
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#board>button:hover {
+    background-color: aliceblue;
+}
+
+/* Reset button style */
+#reset_button {
+    background-color: lightsalmon;
+    box-shadow: 2px 2px lightgrey;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+#reset_button:hover {
+    background-color: salmon;
+}
+
+/* Winner sign style */
+#winner_sign {
+    font-size: 24px;
+    color: salmon;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* Information sign style */
+#info_sign {
+    font-size: 16px;
+}
+
+#cat_heads_container {
+    position: absolute;
+    z-index: 1;
+    top: -120px;
+    /* Fix the container above the viewport so the cats are not visible when they start falling */
+    right: 0;
+    bottom: 0;
+    left: -50px;
+    /* Fix the viewport -50px on the left */
+    overflow: hidden;
+    /* Hide overflowing cat heads */
+}
+
+.cat-head {
+    position: absolute;
+    width: 100px;
+    animation: fall 3s linear infinite;
+    /* Animation for the cat's falling movement from the top to the bottom of the screen */
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(120vh) rotate(360deg);
+        /* Falls to the 120% of the viewport so the cats are not visible when they disappear */
+    }
+}

@@ -1,0 +1,44 @@
+/* Styling for the Pokedex */
+.pokedex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1%
+  }
+  
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.pikachu-running-left {
+    transform: rotateY(180deg);
+    height: 10%;
+    width: 10%;
+}
+
+.pikachu-running-right {
+    height: 10%;
+    width: 10%;
+}
+
+.button {
+    color: red;
+    width: 13%;
+    margin: 2%;
+    font-size: xx-large;
+    padding: 1%;
+    border: 5px solid red;
+    border-radius: 20px;
+    background-color: rgb(241, 241, 154);
+}
+
+.button:hover {
+    background-color:rgb(245, 126, 126);
+    color: white;
+}
+
+
+
