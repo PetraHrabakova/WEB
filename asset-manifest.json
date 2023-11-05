@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c826c2b0.css",
-    "main.js": "/static/js/main.c278f71a.js",
-    "static/media/International_Pokémon_logo.svg.png": "/static/media/International_Pokémon_logo.svg.73735566c3ca3d51075c.png",
-    "static/media/025Pikachu_XY_anime_4.webp": "/static/media/025Pikachu_XY_anime_4.ccc9a2db97886b87d2e1.webp",
-    "static/media/png": "/static/media/8ca447394905e0711cb81f1de9c1379d.84dee279fa7387e85e3f.png",
-    "static/media/Snorlax-Pokemon-step-by-step-drawing-tutorial-step-10.webp": "/static/media/Snorlax-Pokemon-step-by-step-drawing-tutorial-step-10.2406021b949841aa4ece.webp",
-    "static/media/pokemon-1635904_640.webp": "/static/media/pokemon-1635904_640.b386c20f0fa232e76541.webp",
-    "static/media/Running-Pikachu-GIF.webp": "/static/media/Running-Pikachu-GIF.5e08893e51f38ff7017d.webp",
-    "index.html": "/index.html",
-    "main.c826c2b0.css.map": "/static/css/main.c826c2b0.css.map",
-    "main.c278f71a.js.map": "/static/js/main.c278f71a.js.map"
+    "main.css": "/WEB/static/css/main.ce4c98c0.css",
+    "main.js": "/WEB/static/js/main.4523ff47.js",
+    "static/media/International_Pokémon_logo.svg.png": "/WEB/static/media/International_Pokémon_logo.svg.73735566c3ca3d51075c.png",
+    "static/media/025Pikachu_XY_anime_4.webp": "/WEB/static/media/025Pikachu_XY_anime_4.ccc9a2db97886b87d2e1.webp",
+    "static/media/png": "/WEB/static/media/8ca447394905e0711cb81f1de9c1379d.84dee279fa7387e85e3f.png",
+    "static/media/Snorlax-Pokemon-step-by-step-drawing-tutorial-step-10.webp": "/WEB/static/media/Snorlax-Pokemon-step-by-step-drawing-tutorial-step-10.2406021b949841aa4ece.webp",
+    "static/media/pokemon-1635904_640.webp": "/WEB/static/media/pokemon-1635904_640.b386c20f0fa232e76541.webp",
+    "static/media/Running-Pikachu-GIF.webp": "/WEB/static/media/Running-Pikachu-GIF.5e08893e51f38ff7017d.webp",
+    "index.html": "/WEB/index.html",
+    "main.ce4c98c0.css.map": "/WEB/static/css/main.ce4c98c0.css.map",
+    "main.4523ff47.js.map": "/WEB/static/js/main.4523ff47.js.map"
   },
   "entrypoints": [
-    "static/css/main.c826c2b0.css",
-    "static/js/main.c278f71a.js"
+    "static/css/main.ce4c98c0.css",
+    "static/js/main.4523ff47.js"
   ]
 }
